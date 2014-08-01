@@ -1,20 +1,20 @@
 {
-    "title": "Monokai",
-    "name": "monokai-theme",
-    "description": "This dark theme is based on the monokai color scheme from Sublime Text.",
-    "version": "1.0.1",
-    "author": "Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me/)",
-    "homepage": "https://github.com/Brackets-Themes/Monokai",
+    "title": "Monokai Dark Soda",
+    "name": "rain.monokaiDarkSoda",
+    "description": "This dark theme is based on the monokai dark soda color scheme from Sublime Text.",
+    "version": "1.0.0",
+    "author": "rain",
+    "homepage": "https://github.com/rainje/Monokai-Dark-Soda",
     "repository": {
         "type": "git",
-        "url": "git@github.com:Brackets-Theme/Monokai.git"
+        "url": "git@github.com:rainje/Monokai-Dark-Soda.git"
     },
     "license": "MIT",
     "engines": {
         "brackets": ">=0.42.0"
     },
     "theme": {
-        "file": "theme.css",
+        "file": "theme.less",
         "dark": true
     }
 }
