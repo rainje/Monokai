@@ -1,7 +1,7 @@
-Brackets Theme: Monokai
+Brackets Theme: Monokai Dark Soda
 ===
 
-This theme is based on the _monokai_ color scheme from [Sublime Text](http://sublimetext.com/).
+This theme is based on the _monokai_ dark soda color scheme from [Sublime Text](http://sublimetext.com/).
 
 Screenshots
 ---
@@ -22,7 +22,7 @@ This extension requires Brackets Release 42 or newer.
 
 1. Open Brackets
 2. Open the extension manager
-3. Search for ‘Monokai’
+3. Search for ‘Monokai Dark Soda’
 4. Click install
 
 License
