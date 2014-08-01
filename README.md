@@ -1,7 +1,7 @@
 Brackets Theme: Monokai Dark Soda
 ===
 
-This theme is based on the _monokai_ dark soda color scheme from [Sublime Text](http://sublimetext.com/).
+This theme is based on the _monokai dark soda_ color scheme from [Sublime Text](http://sublimetext.com/).
 
 Screenshots
 ---
