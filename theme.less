@@ -48,6 +48,10 @@
 .cm-rangeinfo {color: #6c71c4;}
 .cm-quote {color: #6c9ef8;}
 
+.CodeMirror-linenumber {
+    color: #767676;
+}
+
 /* Extra CSS */
 
 .CodeMirror.find-highlighting div.CodeMirror-selected,
@@ -79,9 +83,10 @@
 
 .CodeMirror-matchingbracket {
   color: #a7ec21 !important;
+  background: rgba(255,255,255,0.15);
 }
 
- .CodeMirror-matchingtag {
+.CodeMirror-matchingtag {
     background: rgba(255,255,255,0.15);
 }
 
@@ -90,13 +95,21 @@
     border-bottom: 1px solid #fff;
 }
 
+.CodeMirror-searching {
+    background-color: #d3cd69;
+    &.searching-current-match {
+        background-color: #f6a644;
+    }
+ }
+
 /* Non-editor styling */
 
-#image-holder,
-#not-editor {
-    background-color: @background;
-}
+.image-view,
+.not-editor {
+     background-color: @background;
+ }
 
-#image-holder {
-    color: @foreground;
-}
+.view-pane .image-view {
+     color: @foreground;
+ }
+
