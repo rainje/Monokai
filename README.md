@@ -18,7 +18,7 @@ Screenshots
 Installation
 ---
 
-This extension requires Brackets Release 43 or newer.
+This extension requires Brackets 1.0 or newer.
 
 1. Open Brackets
 2. Open the extension manager
