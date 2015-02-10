@@ -22,8 +22,9 @@ This extension requires Brackets Release 43 or newer.
 
 1. Open Brackets
 2. Open the extension manager
-3. Search for ‘Monokai Dark Soda’
-4. Click install
+3. Click the Themes tab
+4. Search for ‘Monokai Dark Soda’
+5. Click install
 
 License
 ---

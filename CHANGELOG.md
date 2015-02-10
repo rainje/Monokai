@@ -1,5 +1,12 @@
 Changelog
 =========
+1.0.3
+-----
+
+- [CHANGE] Requires Brackets 1.0.0 or higher
+- [REMOVE] Useless main.js
+- [NEW] Code folding extension theme
+- [FIXED] Cleaned code & documentation
 
 1.0.2
 -----

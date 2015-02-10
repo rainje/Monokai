@@ -1,0 +1,150 @@
+/* Define some variables used in multiple places */
+@background: #242424;
+@foreground: #F8F8F2;
+
+/* Code Styling */
+
+.CodeMirror, .CodeMirror-scroll {
+  background-color: @background;
+  color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+  background: #3C3F41;
+  color: #d9d9d9;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+  box-shadow: inset 15px 0 0 0 #000;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+  .CodeMirror-gutter-elt {
+    background-color: #3C3F41;
+    color: #d9d9d9;
+  }
+  .inline-widget .CodeMirror-gutter-elt {
+    background-color: #3C3F41;
+    color: #d9d9d9;
+  }
+}
+
+/* e.g. var, function */
+.cm-keyword  {color: #ff007f;}
+/* e.g. CoffeeScript ->, CSS colons */
+.cm-operator {color: #ff007f;}
+/* e.g. HTML elements */
+.cm-tag  {color: #ff007f !important;}
+/* e.g. #id */
+.cm-atom {color: #c48cff;}
+/* e.g. 20 */
+.cm-number {color: #c48cff;}
+/* e.g. $, i */
+.cm-variable {color: #fff;}
+/* e.g. for key in [this], Markdown li */
+.cm-variable-2 {color: #c48cff;}
+/* e.g. @include, [this] */
+.cm-def {color: #fd963f;}
+/* e.g. getElementbyId, CSS properties */
+.cm-property {color: #52e3f6;}
+/* e.g. // comments */
+.cm-comment {color: #8c8c8c;}
+/* e.g. "string" */
+.cm-string {color: #ece47e;}
+/* e.g. some CSS values */
+.cm-string-2 {color: #ece47e;}
+/* e.g. @font-face */
+.cm-meta {color: #a7ec21;}
+/* e.g. .box */
+.cm-qualifier {color: #a7ec21;}
+/* e.g. class="" id="" */
+.cm-attribute {color: #a7ec21;}
+/* highlighted selection */
+.cm-matchhighlight {background-color: rgba(61,61,61,.23);}
+
+
+/* not sure if used */
+.cm-builtin {color: #a7ec21;}
+.cm-bracket {color: #f9faf4;}
+.cm-plus {color: #85a300;}
+.cm-variable-3 {color: @foreground;}
+.cm-error, .cm-minus {color: #dc322f;}
+.cm-header {color: #d85896;}
+.cm-link {color: #b77fdb; text-decoration: none;}
+.cm-rangeinfo {color: #6c71c4;}
+.cm-quote {color: #6c9ef8;}
+
+/* Extra CSS */
+
+.CodeMirror-linenumber {
+  color: #767676;
+}
+
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  color: #fff;
+}
+
+.CodeMirror-cursor {
+  border-left: 1px solid #f8f8f8 !important;
+}
+
+.CodeMirror-gutters {
+  background-color: @background;
+  border-right: none;
+}
+
+.CodeMirror .CodeMirror-selected {
+  background: #3d3d3d;
+  opacity: .23;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+  background-color: #ffe69d;
+  color: #242424;
+}
+
+.CodeMirror-matchingbracket {
+  color: #a7ec21 !important;
+  background: rgba(255,255,255,0.15);
+}
+
+.CodeMirror-matchingtag {
+  background: rgba(255,255,255,0.15);
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+  border-left: none !important;
+  border-bottom: 1px solid #fff;
+}
+
+.CodeMirror-searching {
+  background-color: #d3cd69;
+  &.searching-current-match {
+    background-color: #f6a644;
+  }
+ }
+
+/* Extensions */
+
+/**
+ * Code Folding (https://github.com/thehogfather/brackets-code-folding)
+ * --------------------------------------------------------------------
+ */
+
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter,
+.CodeMirror-foldgutter-blank,
+.CodeMirror-foldgutter-folded,
+.CodeMirror-foldgutter-open {
+    color: #75715E;
+}
+
+.CodeMirror-foldgutter-open::after {
+    content: "\25bd";
+}
+
+.CodeMirror-foldmarker {
+    background-color: #333;
+    border-color: #555;
+    color: #555;
+    padding: 0 10px;
+}
