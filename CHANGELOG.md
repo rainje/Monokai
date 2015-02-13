@@ -1,5 +1,14 @@
 Changelog
 =========
+1.0.4
+-----
+
+- [NEW] Brackets Css Color Preview extension theme
+- [CHANGE] Code Folding extension theme modified, based on (https://github.com/visualbam/Brackets-Stripper)
+- [CHANGE] Code documentation and cleaning
+- [CHANGE] Licence included in theme file
+- [FIXED] Padding bug
+
 1.0.3
 -----
 
