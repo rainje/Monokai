@@ -16,7 +16,7 @@ Screenshots
 ![HTML](screenshots/js.png)
 
 ### With supported extensions enabled
-![HTML](screenshots/extensions.png)
+![HTML](screenshots/extension.png)
 
 Installation
 ---
