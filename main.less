@@ -1,6 +1,7 @@
 //  The MIT License (MIT)
 //
-//  Copyright (c) 2014-2015 rain
+//  Original work Copyright © 2014 Steffen Bruchmann <hi@sbruchmann.me> (http://sbruchmann.me)
+//  Modified work Copyright © 2014-2015 rain
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -44,43 +45,43 @@
   }
 }
 
-/* cm-keyword    : var, function, !important */
-/* cm-operator   : CoffeeScript ->, CSS colons */
-/* cm-tag        : HTML elements */
-/* cm-bracket    : html < </ > */
-.cm-keyword, .cm-operator, .cm-tag, .cm-bracket { color: #F92672; }
+/* cm-keyword        : var, function, !important */
+/* cm-operator       : CoffeeScript ->, CSS colons */
+/* cm-tag            : HTML elements */
+/* cm-bracket        : html < </ > */
+.cm-keyword, .cm-operator, .cm-tag, .cm-bracket { color: #ff007f; }
 
-/* cm-atom       : #id */
-/* cm-number     : 20 */
-/* cm-variable-2 : for key in [this], Markdown li */
-.cm-atom, .cm-number, .cm-variable-2 { color: #AE81FF; }
+/* cm-atom           : #id */
+/* cm-number         : 20 */
+/* cm-variable-2     : for key in [this], Markdown li */
+.cm-atom, .cm-number, .cm-variable-2 { color: #c48cff; }
 
-/* cm-meta       : @font-face */
-/* cm-qualifier  : .box */
-/* cm-attribute  : class="" id="" */
-/* cm-builtin    : define, substr, const */
-.cm-meta, .cm-qualifier, .cm-attribute, .cm-builtin { color: #A6E22E; ;}
+/* cm-meta           : @font-face */
+/* cm-qualifier      : .box */
+/* cm-attribute      : class="" id="" */
+/* cm-builtin        : define, substr, const */
+.cm-meta, .cm-qualifier, .cm-attribute, .cm-builtin { color: #a7ec21; ;}
 
-/* cm-string     : "string" */
-/* cm-string-2   : some CSS values */
-.cm-string, .cm-string-2 { color: #E6DB74; }
+/* cm-string         : "string" */
+/* cm-string-2       : some CSS values */
+.cm-string, .cm-string-2 { color: #ece47e; }
 
-/* cm-property   : getElementbyId, CSS properties */
-.cm-property { color: #66D9EF; }
+/* cm-property       : getElementbyId, CSS properties */
+.cm-property { color: #52e3f6; }
 
-/* cm-comment    : // comments */
+/* cm-comment        : // comments */
 .cm-comment { color: #8c8c8c; }
 
-/* cm-variable   : $, i */
+/* cm-variable       : $, i */
 .cm-variable { color: @foreground; }
 
-/* cm-def        : @include, [this] */
-.cm-def { color: #FD971F; }
+/* cm-def            : @include, [this] */
+.cm-def { color: #fd963f; }
 
-/* highlighted selection */
+/* cm-matchhighlight : highlight selected text, used by Match Highlighter extension */
 .cm-matchhighlight { background-color: rgba(61,61,61,.23) ;}
 
-/* e.g. color : #4444 */
+/* cm-error          : color : #4444; */
 .cm-error {color: #dc322f;}
 
 /* not sure if used */
@@ -183,10 +184,20 @@
 }
 
 .CodeMirror-foldmarker {
-    background-color: #333;
-    border-color: #555;
-    color: #1dff00;
-    padding: 0 10px;
+  display: inline-block;
+  border-radius: 0.75em;
+  padding: 0 2px 0 2px;
+  border: 0;
+  font-size: 0.75em;
+  color: #1dff00 !important;
+  text-shadow: 0 0 10px #1dff00;
+  background-color: rgba(255, 255, 255, (1 / 6));
+
+  &::after {
+    content: '\2022\2022\2022';
+    position: relative;
+    top: -0.0625em;
+  }
 }
 
 /**

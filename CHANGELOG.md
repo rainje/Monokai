@@ -1,5 +1,11 @@
 Changelog
 =========
+1.0.5
+-----
+- [FIXED] Licence file
+- [CHANGE] package.json
+- [CHANGE] Code Folding extension theme enhanced.
+
 1.0.4
 -----
 
