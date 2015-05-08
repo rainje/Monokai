@@ -1,5 +1,13 @@
 Changelog
 =========
+
+1.0.6
+-----
+- [REMOVED] Various useless values
+- [UPDATED] Color scheme rebased on the modified Monokai for Dark Soda (https://github.com/buymeasoda/soda-theme/)
+- [FIXED] Licence link
+- [NEW] Brackets-Git support
+
 1.0.5
 -----
 - [FIXED] Licence file
