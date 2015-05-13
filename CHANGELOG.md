@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.0.7
+-----
+- [CHANGE] cm-error now based on monokai color scheme, errors can now be easily located
+- [NEW] License file
+- [UPDATED] Less to css since it's not that useful to me
+- [CHANGE] Cleaned code
+- [CHANGE] cm-attribute rebased on monokai color scheme
+
 1.0.6
 -----
 - [REMOVED] Various useless values

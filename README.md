@@ -15,13 +15,10 @@ Screenshots
 ### JavaScript
 ![HTML](screenshots/js.png)
 
-### With supported extensions enabled
-![HTML](screenshots/extension.png)
-
 Installation
 ---
 
-This extension requires Brackets 1.0 or newer.
+This extension requires Brackets 1.3 or newer.
 
 1. Open Brackets
 2. Open the extension manager
@@ -40,4 +37,4 @@ Want more? Open an issue!
 License
 ---
 
-The MIT License. Read [LICENSE](main.less) for further information.
+The MIT License. Read [LICENSE](LICENSE) for further information.
