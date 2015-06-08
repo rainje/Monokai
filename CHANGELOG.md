@@ -1,5 +1,8 @@
 Changelog
 =========
+1.0.8
+-----
+- [CHANGE] cm-attribute back to previous colors 
 
 1.0.7
 -----

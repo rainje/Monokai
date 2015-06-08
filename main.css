@@ -23,7 +23,8 @@
 /* cm-meta           : @font-face */
 /* cm-qualifier      : .box */
 /* cm-builtin        : define, substr, const */
-.cm-meta, .cm-qualifier, .cm-builtin {
+/* cm-attribute      : class="" id="" */
+.cm-meta, .cm-qualifier, .cm-builtin, .cm-attribute {
   color: #A6E22E;
 }
 
@@ -35,8 +36,7 @@
 
 /* cm-property       : getElementbyId, CSS properties */
 /* cm-variable-2     : for key in [this], Markdown li */
-/* cm-attribute      : class="" id="" */
-.cm-property, .cm-variable-2, .cm-attribute {
+.cm-property, .cm-variable-2 {
   color: #66D9EF;
 }
 
@@ -128,7 +128,7 @@
 }
 
 .CodeMirror-foldgutter-open:after {
-  content: "\2335";
+  content: "⌵";
   font-size: 1.3em;
   color: #767676;
 }
