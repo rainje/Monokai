@@ -2,7 +2,7 @@
   "title": "Monokai Dark Soda",
   "name": "rain.monokai-dark-soda",
   "description": "Dark theme based on Dark Soda and Monokai color schemes.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": {
   "name": "rain",
   "url": "https://github.com/rainje"
@@ -17,7 +17,7 @@
     "brackets": ">=1.3.0"
   },
   "theme": {
-    "file": "main.css",
+    "file": "main.min.css",
     "dark": true
   },
   "keywords": ["theme","monokai","dark","soda","sublime","text","fork","extension","css"]

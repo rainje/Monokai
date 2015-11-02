@@ -1,5 +1,10 @@
 Changelog
 =========
+
+1.0.9
+-----
+- [FIXED] Issue with foldgutter encoding, changed character from U+2335 to U+02C5.
+
 1.0.8
 -----
 - [CHANGE] cm-attribute back to previous colors 
